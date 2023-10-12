@@ -1,7 +1,6 @@
-package Day1;
+package FirstEvalution.Day1_Java_basics;
 
 import java.util.Scanner;
-import java.util.StringJoiner;
 
 public class StringBuilderDemo {
     public static void main(String[] args) {
@@ -10,13 +9,14 @@ public class StringBuilderDemo {
         String name= scanner.nextLine();
         System.out.println("Enter your last name is ");
         String lastname=scanner.nextLine();
-       // String fullname=name+" "+lastname;
-        //String fullname=name.concat(lastname);
-       //  StringJoiner  fullname=new StringJoiner("",name," "+lastname);
+        // String fullname=name+" "+lastname;
+        // String fullname=name.concat(lastname);
+        // StringJoiner  fullname=new StringJoiner("",name," "+lastname);
 
       //  StringBuilder fullname=new StringBuilder();
         /*fullname.append(name);
         fullname.append(lastname);*/
+
         StringBuffer fullname=new StringBuffer();
 
 

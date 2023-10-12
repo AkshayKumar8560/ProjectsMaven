@@ -1,9 +1,0 @@
-<suite name = "Suite1">
-    <test name = "Day5.test1">
-        <classes>
-            <class name = "Evalutaion.EvalutonTest2" />
-        </classes>
-
-    </test>
-
-</suite>

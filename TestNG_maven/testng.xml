@@ -36,8 +36,10 @@
 
         <classes>
             <class name = "TestNG.Day5.parameterizedTestWithBroswer" />
+
         </classes>
 
     </test>
+
 
 </suite>

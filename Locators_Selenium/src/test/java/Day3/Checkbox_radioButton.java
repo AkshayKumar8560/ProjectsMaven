@@ -18,8 +18,8 @@ public class Checkbox_radioButton {
         //checkbox
 
         driver.findElement(By.xpath("//form[@id='checkboxes']/child::input[1]")).click();
-        driver.findElement(By.xpath("//form[@id='checkboxes']/child::input[2]")).click();*/
-
+        driver.findElement(By.xpath("//form[@id='checkboxes']/child::input[2]")).click();
+*/
 
 
         //facebook
@@ -33,7 +33,7 @@ public class Checkbox_radioButton {
       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
         driver.get("https://demoqa.com/radio-button");
 
-        WebElement element=driver.findElement(By.xpath("//input[@id='yesRadio']"));
+        WebElement element=driver.findElement(By.xpath("//label[@for='yesRadio']"));
         element. click();
 
     }

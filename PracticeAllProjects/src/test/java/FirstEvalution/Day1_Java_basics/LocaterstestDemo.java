@@ -1,4 +1,4 @@
-package Day1;
+package FirstEvalution.Day1_Java_basics;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

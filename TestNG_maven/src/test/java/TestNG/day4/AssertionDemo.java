@@ -14,6 +14,7 @@ public class AssertionDemo {
     }
  @Test
     void test2(){
+
         Assert.assertEquals(12,13,"Not Matched");
     }
 

@@ -5,13 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7279a91-7344-4f73-a30d-966e3406629e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestNGDemo/src/Day1/TestNgDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1_Java_basics/ResizeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day2_Selenium_Locators/WaitsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day2_Selenium_Locators/facebookRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/AnnotaionsWithBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/DataProviders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/Paramiter_testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/PropertiesFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/TestNgPart1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/Testng_ITestListerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/Testng_Itestlistener.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/confilg.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/iIistenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day3_TestNG/paramiterPassing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day5/ParallelBrowsersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day5/firefoxBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day7/javaScriptExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day7/javaScriptExecutor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/day4/POM_Without_Pagefactory/POM_Wthout_Page_Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/day4/POM_Without_Pagefactory/verify_pom_without_pagefactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/day4/POM_with_pageFactory/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/day4/POM_with_pageFactory/Login_TestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/day6/ActionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/day6/windowsHandleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day2/jenkinsProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day2/jenkinsProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Locators_Selenium/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Locators_Selenium/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Locators_Selenium/src/test/java/Day3/Checkbox_radioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Locators_Selenium/src/test/java/Day3/Checkbox_radioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Locators_Selenium/src/test/java/Evalutaion/testng1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Locators_Selenium/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeAllProjects/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeAllProjects/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1/JavaBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1_Java_basics/JavaBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1/LocaterstestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1_Java_basics/LocaterstestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1/LocatorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1_Java_basics/LocatorsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1/StringBuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeAllProjects/src/test/java/Day1_Java_basics/StringBuilderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeAllProjects/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeAllProjects/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumAndmeven/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumAndmeven/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_maven/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_maven/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_maven/src/test/java/AdvanceSelenium/day2/Windowhandled.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_maven/src/test/java/AdvanceSelenium/day2/Windowhandled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_maven/src/test/java/TestNG/day4/AssertionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_maven/src/test/java/TestNG/day4/AssertionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_maven/src/test/java/TestNG/day4/PropertileFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_maven/src/test/java/TestNG/day4/PropertileFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_maven/src/test/java/TestNG/day4/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_maven/src/test/java/TestNG/day4/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_maven/src/test/java/TestNG/testng3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_maven/src/test/java/TestNG/testng3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_maven/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_maven/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +78,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Akshay&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Akshay",
+    "last_opened_file_path": "C:/Users/Akshay Kumar Doodwal/Downloads/jcommander-1.82.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Akshay Kumar TFT Java\Jenkins\src\main\resources" />

@@ -1,7 +1,10 @@
 package AdvanceSelenium.day2;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -39,6 +42,11 @@ public class Windowhandled {
             }
 
         }
+       WebElement jobElement= driver.findElement(By.xpath("//a[@title='Search Jobs']"));
+       WebElement wfhElement= driver.findElement(By.xpath("//a[@title='Work from home jobs']"));
+        Actions actions =new Actions(driver);
+        actions.moveToElement(jobElement).perform();
+        actions.moveToElement(wfhElement).click().build().perform();
 //switch to the parent window
         driver.switchTo().window(parent);
 

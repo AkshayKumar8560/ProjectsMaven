@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Akshay Kumar TFT Java/PracticeAllProjects/src/test/java/SecondEvalution/Day1/GridDemo.java">
+        <classes>
+            <class name="SecondEvalution.Day1.GridDemo">
+                <methods>
+                    <include name="setupChrome"/>
+                    <include name="setupfirefox"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test" >
+    <test name="test1" parallel="methods" thread-count="2">
+        <classes>
+
+            <class name="SecondEvalution.Day1.GridDemo"></class>
+
+        </classes>
+
+    </test>
+</suite>
+-->
+

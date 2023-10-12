@@ -1,4 +1,4 @@
-package Day1;
+package FirstEvalution.Day1_Java_basics;
 
 public class JavaBasics {
     public static void main(String[] args) {

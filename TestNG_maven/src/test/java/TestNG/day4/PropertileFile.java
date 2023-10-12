@@ -28,7 +28,7 @@ public class PropertileFile {
     public static void getproperties() throws IOException {
         Properties properties=new Properties();
        // String projectpath=System.getProperty("user.dir");
-        InputStream inputStream=new FileInputStream("C:\\Akshay Kumar TFT Java\\TestNG_maven\\src\\test\\java\\day4\\config.properties");
+        InputStream inputStream=new FileInputStream("C:\\Akshay Kumar TFT Java\\TestNG_maven\\src\\test\\java\\TestNG\\day4\\config.properties");
          properties.load(inputStream);
          String brs=properties.getProperty("Browser");
         System.out.println(brs);
@@ -45,7 +45,7 @@ public class PropertileFile {
     // set data to .properties file
     public static void setDataProperties() throws IOException {
         Properties properties=new Properties();
-        OutputStream outputStream=new FileOutputStream("C:\\Akshay Kumar TFT Java\\TestNG_maven\\src\\test\\java\\day4\\config.properties");
+        OutputStream outputStream=new FileOutputStream("C:\\Akshay Kumar TFT Java\\TestNG_maven\\src\\test\\java\\TestNG\\day4\\config.properties");
 
         properties.setProperty("Browser","GoogleChrome");
         properties.setProperty("File","Chrome");

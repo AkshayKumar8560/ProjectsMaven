@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Akshay Kumar TFT Java/PracticeAllProjects/src/test/java/SecondEvalution/Day1/GridDemo.java">
+        <parameter name="email" value="doodwalaksahy12@gmail.com"></parameter>
+        <parameter name="pass" value="Akshay@123"></parameter>
+        <classes>
+
+            <class name="SecondEvalution.Day4.Parameter.parameterPassDemo">
+                <methods>
+                    <include name="veifytest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
