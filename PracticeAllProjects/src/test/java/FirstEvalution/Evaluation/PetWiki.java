@@ -11,9 +11,6 @@ import java.time.Duration;
 public class PetWiki {
 
     public static String getLoadedData(WebDriver driver) {
-
-
-
         Wait<WebDriver> wait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(1))
                 .pollingEvery(Duration.ofMillis(250))

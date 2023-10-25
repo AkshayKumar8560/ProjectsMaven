@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="methods" thread-count="14"
+          name="C:/Akshay Kumar TFT Java/Automationtesting">
+        <classes>
+            <class name="test_runner.LoginTestRunner">
+                <methods>
+                    <include name="doLoginWithInvalidCreds"/>
+                    <include name="doLogin"/>
+                </methods>
+            </class>
+            <class name="test_runner.PIMTestRunner">
+                <methods>
+                    <include name="createEmployee1"/>
+                    <include name="createEmployee2"/>
+                    <include name="searchEmployeeInfo"/>
+                    <include name="seachEmpByName"/>
+                    <include name="seachEmpByInvlidName"/>
+                    <include name="updateEmpId"/>
+                    <include name="searchNewUserByValidID"/>
+                    <include name="searchUserByInvalidEmpId"/>
+                </methods>
+            </class>
+            <class name="test_runner.SecondUserTestRunner">
+                <methods>
+                    <include name="gender"/>
+                    <include name="updateBlood"/>
+                    <include name="updateContactDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

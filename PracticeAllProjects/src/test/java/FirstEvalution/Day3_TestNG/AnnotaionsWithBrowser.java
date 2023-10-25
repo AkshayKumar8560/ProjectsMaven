@@ -24,8 +24,6 @@ public class AnnotaionsWithBrowser {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
         driver.manage().deleteAllCookies();
-
-
     }
 
 

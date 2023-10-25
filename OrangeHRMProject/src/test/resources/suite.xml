@@ -1,0 +1,23 @@
+<suite thread-count="1" verbase="1" name="Orange HRM Website Automation">
+
+    <parameter name="browser" value="chrome"> </parameter>
+
+    <test name="Employee Login Page Test">
+        <classes>
+            <class name="testrunner.LoginTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Employee Page Test">
+        <classes>
+            <class name="testrunner.EmployeeTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="2nd Employee Login Page Test">
+        <classes>
+            <class name="testrunner.NewUserTestRunner"/>
+        </classes>
+    </test>
+
+</suite>
