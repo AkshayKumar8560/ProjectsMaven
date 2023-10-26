@@ -1,5 +1,6 @@
 package testrunner;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import org.junit.Assert;
@@ -24,8 +25,13 @@ public class NewUserTestRunner extends Setup {
     public void doLoginWithSecondUsers() throws IOException, ParseException, InterruptedException {
         loginPage = new LoginPage(driver);
         dashboardPage = new DashboardPage(driver);
+        String fileName = "./src/test/resources/User.json";
+        JSONArray jsonArray = (JSONArray) Utils.readJSONArray(fileName);
+        int indexOfFirstEmp = jsonArray.size() - 1;
 
-        JSONObject userObject = Utils.loadJSONFiles("./src/test/resources/User.json", 7);
+        JSONObject userObject = new JSONObject();
+        userObject = (JSONObject) jsonArray.get(indexOfFirstEmp);
+
         String username = userObject.get("username").toString();
         String password = userObject.get("password").toString();
         loginPage.doLogin(username, password);

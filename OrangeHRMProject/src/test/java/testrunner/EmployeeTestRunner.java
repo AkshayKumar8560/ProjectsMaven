@@ -159,7 +159,8 @@ public class EmployeeTestRunner extends Setup {
 
         String fileName = "./src/test/resources/User.json";
         JSONArray jsonArray = (JSONArray) Utils.readJSONArray(fileName);
-        int indexOfFirstEmp = jsonArray.size() - 2;
+       // int indexOfFirstEmp = jsonArray.size() - 2;
+        int indexOfFirstEmp = jsonArray.size() - 1;
 
         JSONObject firstEmp = new JSONObject();
         firstEmp = (JSONObject) jsonArray.get(indexOfFirstEmp);

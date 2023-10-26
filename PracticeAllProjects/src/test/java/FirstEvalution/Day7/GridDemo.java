@@ -19,7 +19,6 @@ public class GridDemo {
         cap.setBrowserName("chrome");
         cap.setPlatform(Platform.WIN11);
 
-
         driver=new RemoteWebDriver(new URL("http://localhost:4444"),cap);
         driver.get("https://www.google.com");
 
